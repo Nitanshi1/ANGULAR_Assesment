@@ -1,0 +1,7 @@
+<div *ngIf="data" class="data">
+    <ul>
+        <li *ngFor="let info of data">
+            <a routerLink="/Character/{{info.id}}">{{info.name}}</a>
+        </li>
+    </ul>
+</div>

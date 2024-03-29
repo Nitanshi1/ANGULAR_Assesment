@@ -1,0 +1,22 @@
+
+.back:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 120px;
+
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+img{
+    width: 30%;
+    padding: 1%;
+   background-color: rgb(221, 185, 87);
+   margin-top: 5%;
+}

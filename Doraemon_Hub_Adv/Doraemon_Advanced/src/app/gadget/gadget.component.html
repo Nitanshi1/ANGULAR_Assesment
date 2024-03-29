@@ -1,0 +1,8 @@
+<div *ngIf="data" class="data">
+    <ul type="square">
+        <li *ngFor="let info of data">
+            <a routerLink="/gadget/{{info.id}}">{{info.name}}</a>
+            <button class="back"c lass="delete" type="button" (click)="delete(info)">Delete</button>
+        </li>
+    </ul>
+</div>

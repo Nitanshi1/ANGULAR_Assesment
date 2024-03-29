@@ -1,0 +1,9 @@
+<div *ngIf="data" class="images">
+    
+    <div class="img1" *ngFor="let info of data">
+        <img src="{{info.imgpath}}">
+    </div> 
+</div>
+<div>
+    <button  class="back" type="button" (click)="goback()">Back</button>
+</div>
