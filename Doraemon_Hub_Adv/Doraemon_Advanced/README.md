@@ -1,3 +1,10 @@
+https://docs.google.com/document/d/13jDOupOmD7eIbrztndtcTfyy4ZbkdU3m0dm9qkBT2yw/edit?addon_store
+documentation Link
+
+
+
+
+
 # DoraemonAdvanced
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
