@@ -3,7 +3,7 @@ import { character } from '../mydoraemon';
 import { DataService } from '../data.service';
 import { ActivatedRoute } from '@angular/router';
 import { Location, NgIf } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,NgModel } from '@angular/forms';
 @Component({
   selector: 'app-character-details',
   standalone: true,

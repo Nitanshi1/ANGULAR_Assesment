@@ -1,4 +1,4 @@
-const { truncate } = require('fs');
+
 const Pets = require('../Models/Pets')
 
 exports.getAllPets = async () => {
